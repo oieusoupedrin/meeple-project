@@ -1,13 +1,12 @@
+import BannerContainer from './../../shared/components/bannerContainer/bannerContainer';
 import './home.css';
-
+const data = require('./../../shared/services/mockData/mockDataBanner.json')
 function Home() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Home component
-        </h1>
-      </header>
+      {data.banners.map((banner, i) => {
+        return <BannerContainer bannerImage={banner.bannerImage} bannerText={banner.bannerText}  bannerTitle={banner.bannerTitle} key={i}/>
+      })}
     </div>
   );
 }

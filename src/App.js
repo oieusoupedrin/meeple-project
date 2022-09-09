@@ -1,19 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Menu from './shared/components/menu/menu';
+import Home from './pages/home/home';
+import AboutMeeple from './pages/about-meeple/aboutMeeple';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>
-          NEM FODENDO
-        </h1>
-      </header>
-    </div>
+    <Router>
+      <Menu></Menu>
+      <Routes>
+        <Route path="/" element={<Home />}>          
+        </Route>
+        <Route path="/about" element={<AboutMeeple /> }>
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

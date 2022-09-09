@@ -1,0 +1,36 @@
+{
+    "banners": [
+        {
+            "bannerImage": "./home/night.jpg",
+            "bannerLogo": "",
+            "altText": "",
+            "bannerText": "Aqui começará sua aventura épica",
+            "bannerTitle": "Bem vindos à Meeple",
+            "buttonLink": "/about"
+        },
+        {
+            "bannerImage": "./home/deserto.jpg",
+            "bannerLogo": "",
+            "altText": "",
+            "bannerTitle": "Aqui vão ficar as notícias recentes",
+            "bannerText": "Na verdade não necessariamente isso será um Banner",
+            "buttonLink": "/about"
+        },
+        {
+            "bannerImage": "./home/night.jpg",
+            "bannerLogo": "",
+            "altText": "",
+            "bannerTitle": "Pessoas que estarão em Live",
+            "bannerText": "Olha que legal os amiguinhos que estão fazendo live e os links para o youtube deles",
+            "buttonLink": "/about"
+        },
+        {
+            "bannerImage": "./home/liviashop.jpg",
+            "bannerLogo": "",
+            "altText": "",
+            "bannerTitle": "Shop da Lívia, Artefatos e Ferramentas para sua aventura",
+            "bannerText": "Pode olhar, não toque em nada que não for comprar, pois além de perder a mão, será obrigado a limpar o chão",
+            "buttonLink": "/about"
+        }
+    ]    
+}
