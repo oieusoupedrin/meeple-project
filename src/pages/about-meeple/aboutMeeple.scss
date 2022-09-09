@@ -1,0 +1,13 @@
+.news-board {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+
+    & > .newscard {    
+        width: 600px;
+        height: 800px;
+    }
+
+}
+
+

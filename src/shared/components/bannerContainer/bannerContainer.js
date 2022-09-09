@@ -1,11 +1,19 @@
-import { Link } from 'react-router-dom'
 import Button from '../button/button'
 import './bannerContainer.scss'
-const images = require.context('../../assets/', true)
+const images = require.context('../../assets/images/', true)
 
 
 
-function BannerContainer( { bannerImage, bannerLogo, bannerText, altText, bannerTitle, buttonLink } ) {
+function BannerContainer( { 
+  bannerImage, 
+  bannerLogo, 
+  bannerText, 
+  altText, 
+  bannerTitle, 
+  buttonLink, 
+  buttonText,
+
+} ) {
   const bannerImageSrc =  images(`${bannerImage}`)
   let styler = {
     backgroundImage: `url(${bannerImageSrc})`,
@@ -19,9 +27,9 @@ function BannerContainer( { bannerImage, bannerLogo, bannerText, altText, banner
         <img src={ bannerLogo } className='logo' alt=""></img>
         <span className='title'>{ bannerTitle }</span>
         <span className='content'>{ bannerText }</span>
-        <Button className='button' type='button' text={'<Link to="/about">Home</Link>'}></Button>
+        <Button className='button' type='link' text={buttonText} route={buttonLink}></Button>
       </div>
     );
   }
   
-  export default BannerContainer;
+  export default BannerContainer; 

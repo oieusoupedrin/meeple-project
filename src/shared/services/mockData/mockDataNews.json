@@ -1,0 +1,40 @@
+{
+    "news": [
+        {
+            "thumb": "./steveverso/stevemario.jpg",
+            "title": "It's me Mario!",
+            "text": "It's me Mario!",
+            "id": "1"
+        },
+        {
+            "thumb": "./steveverso/steveparkour.jpg",
+            "title": "It's me Mario!",
+            "text": "It's me Mario!",
+            "id": "2"
+        },
+        {
+            "thumb": "./steveverso/stevesport.jpg",
+            "title": "It's me Mario!",
+            "text": "It's me Mario!",
+            "id": "3"
+        },
+        {
+            "thumb": "./steveverso/steveguloso.jpg",
+            "title": "It's me Mario!",
+            "text": "It's me Mario!",
+            "id": "4"
+        },
+        {
+            "thumb": "./steveverso/stevejobs.jpg",
+            "title": "It's me Mario!",
+            "text": "It's me Mario!",
+            "id": "5"
+        },
+        {
+            "thumb": "./steveverso/certamentenaoeosteve.jpg",
+            "title": "It's me Mario!",
+            "text": "It's me Mario!",
+            "id": "6"
+        }        
+    ]    
+}
