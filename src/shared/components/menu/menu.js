@@ -1,7 +1,9 @@
+import './menu.scss'
+
 function Menu() {
     return (
-      <div className="menu-item">
-        
+      <div className="menu">
+        <p>menu</p>
       </div>
     );
   }

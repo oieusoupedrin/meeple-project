@@ -1,10 +1,10 @@
 import NewsThumb from '../../shared/components/news-thumb/newsThumb'
 import React from 'react'
-import './aboutMeeple.scss'
+import './news.scss'
 const data = require('./../../shared/services/mockData/mockDataNews.json')
 
 
-export default function AboutMeeple() {
+export default function News() {
   return (
     <div className='news-board'>      
       { 
