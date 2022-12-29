@@ -1,4 +1,4 @@
-import Button from '../button/button'
+import ButtonLink from '../button/button'
 import './bannerContainer.scss'
 const images = require.context('../../assets/images/', true)
 
@@ -27,7 +27,7 @@ function BannerContainer( {
         <img src={ bannerLogo } className='logo' alt=""></img>
         <span className='title'>{ bannerTitle }</span>
         <span className='content'>{ bannerText }</span>
-        <Button className='button' type='link' text={buttonText} route={buttonLink}></Button>
+        <ButtonLink className='button' type='link' text={buttonText} route={buttonLink}></ButtonLink>
       </div>
     );
   }
