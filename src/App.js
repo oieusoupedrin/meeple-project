@@ -8,16 +8,18 @@ import News from './pages/news/news';
 function App() {
   return (
     <Router>
-      <Menu className='menu'></Menu>
-      <div className='content'>
-        <Routes>
-          <Route path="/" element={<Home />}>          
-          </Route>
-          <Route path="/about" element={<AboutMeeple /> }>
-          </Route>
-          <Route path="/news" element={<News /> }>
-          </Route>
-        </Routes>
+      <div className='bgmask'>
+        <Menu className='menu'></Menu>
+        <div className='content'>
+          <Routes>
+            <Route path="/" element={<Home />}>          
+            </Route>
+            <Route path="/about" element={<AboutMeeple /> }>
+            </Route>
+            <Route path="/news" element={<News /> }>
+            </Route>
+          </Routes>
+        </div>
       </div>
     </Router>
   );
